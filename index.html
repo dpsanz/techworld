@@ -4,8 +4,116 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tech World</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <nav id="nav1">
+            <img src="img/logo.png" width="8%">
+      </nav>
+
+    <nav class="navbar bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" style="color:white">Techworld</a>
+          <a href="cadastrousuario.html" class="btn btn-light">Entrar</a>
+          <a href="cadastroprodutograndemarca.html" class="btn btn-light">Cadastro Produto</a>
+        </div>
+      </nav>
+
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/pexels-tima-miroshnichenko-5380642.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/pexels-samer-daboul-1240527.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/pexels-shvets-production-7562136.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+    <div class="row g-5">
+      
+      <div class="col-md-8">  
+    <h1 class="pb-4 mb-4 fst-italic border-bottom">Welcome to Tech World, where Innovation Meets Possibility </h1>
+      <p>Our mission is simple: to empower you with the knowledge and tools you need to navigate the ever-evolving landscape of technology. Whether you're a tech enthusiast, a budding entrepreneur, or someone simply curious about the digital world, we have something for you. We believe that technology should be accessible to everyone, and our goal is to demystify complex concepts, making them understandable and exciting for all.
+
+        What We Offer
+        
+        Latest Tech Trends: Stay updated with the hottest trends in the tech industry. From artificial intelligence and blockchain to virtual reality and cybersecurity, we cover it all.
+        
+        Product Reviews: Looking to buy a new gadget? Our in-depth reviews provide valuable insights to help you make informed decisions. We test, analyze, and compare the latest devices so you can choose the best one for your needs.
+        
+        How-To Guides: Master your tech skills with our step-by-step guides. Whether it's setting up a smart home, learning programming languages, or optimizing your smartphone, our tutorials simplify complex processes.
+        
+        Expert Insights: Gain valuable perspectives from industry experts and thought leaders. Our interviews and articles delve into the minds of innovators, offering you a glimpse into the future of technology.
+        
+        Community Engagement: Join our vibrant community of tech enthusiasts. Share your knowledge, ask questions, and connect with like-minded individuals who share your passion for all things tech.
+        
+        Why Choose Us?
+        
+        At Tech World, we are not just another tech website – we are your partners in the digital age. We are committed to providing accurate, reliable, and engaging content that inspires, educates, and entertains. Our team of tech enthusiasts and experts curate the best and most relevant information, ensuring you're always at the forefront of technological advancements.
+        
+        Explore the limitless world of technology with us. Whether you're here to learn, shop, or simply be inspired, Tech World is your go-to destination for everything tech-related.
+        
+        Join us on this exciting journey, and together, let's embrace the future!</p>
+    </div>
+    <div class="col-md-4">
+        <div class="position-sticky" style="top: 2rem;">
+            <div class="p-4 mb-3 bg-body-tertiary rounded">
+              <h4 class="fst-italic">About</h4>
+              <p class="mb-0">Customize this section to tell your visitors a little bit about your publication, writers, content, or something else entirely. Totally up to you.</p>
+            </div>
     
+            <div>
+              <h4 class="fst-italic">Recent posts</h4>
+              <img id="marlon" src="img/pexels-john-paul-2420306.jpg" alt="">
+            </div>
+    </div>
+</div>
+</div>
+
+<div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <p class="col-md-4 mb-0 text-body-secondary">© 2023 Tech World, Inc</p>
+  
+      <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+      </a>
+  
+      <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+      </ul>
+    </footer>
+  </div>
+
 </body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </html>

@@ -1,0 +1,14 @@
+#nav1 {
+    background-color: #206fed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-style: dotted;
+    border-bottom-width: 1px;
+    border-bottom-color: white;
+}
+
+#marlon {
+    width: 100%;
+}
+

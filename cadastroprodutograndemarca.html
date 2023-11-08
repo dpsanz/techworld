@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Pessoa</title>
+
+    <!-- Inclua o CSS do Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+<!-- Barra de Navegação Bootstrap -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/">Tech World</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="/">Página Principal</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="cadastrousuario.html">Cadastro Usuario</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Formulário de Cadastro de Pessoa com Bootstrap -->
+<div class="container mt-5">
+    <h1>Cadastro de Produto</h1>
+    <form action="/cadastrousuario" method="post">
+        <div class="form-group">
+            <label for="nome">Descricao:</label>
+            <input type="text" class="form-control" id="nome" name="nome" placeholder="Descricao">
+        </div>
+        <div class="form-group">
+            <label for="email">Marca:</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Marca">
+        </div>
+        <div class="form-group">
+            <label for="endereco">Data de Fabricação:</label>
+            <input type="text" class="form-control" id="endereco" name="endereco" placeholder="Data">
+        </div>
+        <div class="form-group">
+            <label for="endereco">Quantidade de Estoque:</label>
+            <input type="text" class="form-control" id="endereco" name="endereco" placeholder="Quantidade">
+        </div>
+        <button type="submit" class="btn btn-primary">Cadastrar</button>
+    </form>
+</div>
+
+<!-- Inclua o JavaScript do Bootstrap e jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
